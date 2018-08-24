@@ -67,7 +67,7 @@ body {
 
 .empresas-logo {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 
   width: 60%;
   height: fit-content;
@@ -133,9 +133,8 @@ body {
   height: 36px;
 
   text-indent: 10px;
-}
-
-.form-button__content:focus {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
   outline-color: #4bd484;
 }
 
@@ -151,7 +150,7 @@ body {
   margin-top: 20px;
 
   height: 50px;
-  width: 160px;
+  width: 200px;
 
   border: none;
   color: white;
@@ -160,15 +159,23 @@ body {
   border-radius: 2rem;
 
   cursor: pointer;
+  font-weight: 700;
+  font-size: 14px;
 }
 
 .sent-email {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+
   display: none;
   text-align: center;
   color: #4bd484;
 }
 
 .error-list {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+
   color: red;
   font-size: 14px;
   display: none;
