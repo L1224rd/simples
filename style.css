@@ -2,38 +2,127 @@ body {
   margin: 0;
 }
 
-#main {
+.flex-container {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.mid {
+.banner1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 22vh;
+
+  background-color: aquamarine;
+}
+
+.banner1__title {
+  margin: 0;
+
+  font-size: 50px;
+  color: white;
+}
+
+.banner1__description {
+  margin: 0;
+
+  font-size: 20px;
+  color: white;
+}
+
+.text1 {
+  width: 86%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text1__content {
+  margin-top: 35px;
+  margin-bottom: 35px;
+
+  font-size: 22px;
+  color: black;
+  text-align: center;
+}
+
+.banner2 {
+  width: 100%;
+
   display: flex;
   flex-direction: row;
-  align-items: center;
 }
 
-#banner1 {
-  height: 150px;
-  background-color: aquamarine;
+.banner2__image {
+  width: 50%;
+  height: 18vh;
+}
+
+.banner2__image1 {
+  background-image: url();
+}
+
+.banner2__image2 {
+  background-image: url();
+}
+
+.empresas-logo {
+  width: 70%;
+  /*remove later*/
+  min-height: 14vh;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.empresas-logo__image {
+  width: 50%;
+  height: auto;
+}
+
+.empresas-logo__image1 {
+  background-image: url();
+}
+
+.empresas-logo__image2 {
+  background-image: url();
+}
+
+.text2 {
+  margin-bottom: 20px;
+
+  width: 86%;
+
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-}
 
-#text1 {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 30px;
-}
-
-#text1 div {
+  font-size: 22px;
+  color: black;
   text-align: center;
-  width: 450px;
 }
 
-#banner2 {
-  background-image: url('image');
+.text2 p {
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+
+.text2__first {
+  font-weight: 600;
+}
+
+
+
