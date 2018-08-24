@@ -7,10 +7,6 @@ body {
   flex-direction: column;
 }
 
-#main div {
-  height: 350px;
-}
-
 .mid {
   display: flex;
   flex-direction: row;
@@ -18,6 +14,7 @@ body {
 }
 
 #banner1 {
+  height: 150px;
   background-color: aquamarine;
   display: flex;
   flex-direction: column;
@@ -35,4 +32,8 @@ body {
 #text1 div {
   text-align: center;
   width: 450px;
+}
+
+#banner2 {
+  background-image: url('image');
 }
