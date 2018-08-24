@@ -29,6 +29,7 @@ $("document").ready(() => {
   });
   $('.form-input').click(() => {
     $('#error-email').hide();
+    $('#error-phone').hide();
   });
   $("input[name=phone]").mask("(00) 0 0000-0000");
 });
