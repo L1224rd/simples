@@ -147,13 +147,15 @@ body {
   margin-top: 20px;
 
   height: 50px;
-  width: 160px;
+  width: 200px;
 
   border: none;
   color: white;
 
   background-color: #4bd484;
   border-radius: 2rem;
+
+  font-weight: bold;
 }
 
 .sent-email {
