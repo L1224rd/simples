@@ -62,7 +62,7 @@ body {
 
 .banner2__image {
   width: 100%;
-  height: auto;
+  height: 100%*252/750;
 }
 
 .empresas-logo {
@@ -113,6 +113,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+
+  margin-bottom: 40px;
 }
 
 .form-input {
