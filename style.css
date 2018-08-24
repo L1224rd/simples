@@ -61,22 +61,12 @@ body {
 }
 
 .banner2__image {
-  width: 50%;
-  height: 18vh;
-}
-
-.banner2__image1 {
-  background-image: url();
-}
-
-.banner2__image2 {
-  background-image: url();
+  width: 100%;
+  height: auto;
 }
 
 .empresas-logo {
   width: 70%;
-  /*remove later*/
-  min-height: 14vh;
   height: fit-content;
 
   display: flex;
@@ -87,16 +77,8 @@ body {
 }
 
 .empresas-logo__image {
-  width: 50%;
+  width: 100%;
   height: auto;
-}
-
-.empresas-logo__image1 {
-  background-image: url();
-}
-
-.empresas-logo__image2 {
-  background-image: url();
 }
 
 .text2 {
@@ -122,6 +104,44 @@ body {
 
 .text2__first {
   font-weight: 600;
+}
+
+.form {
+  width: 86%;
+
+  font-display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-input {
+  width: 100%;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-input__content {
+  width: 100%;
+  height: 36px;
+
+  text-indent: 10px;
+}
+
+.form-button {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form-button__content {
+  margin-top: 20px;
+
+  height: 50px;
+  width: 160px;
 }
 
 

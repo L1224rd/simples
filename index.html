@@ -21,13 +21,11 @@
     </div>
     
     <div class="banner2">
-      <div class="banner2__image banner2__image1"></div>
-      <div class="banner2__image banner2__image2"></div>
+      <img src="" alt="" class="banner2__image">
     </div>
 
     <div class="empresas-logo">
-      <div class="empresas-logo__image empresas-logo__image1"></div>
-      <div class="empresas-logo__image empresas-logo__image2"></div>
+      <img src="" alt="" class="empresas-logo__image">
     </div>
 
     <div class="text2">
@@ -35,26 +33,25 @@
       <p class="text2__second">Os participantes que estiverem presentes no evento vão a um incrível Pop Up Photo Studio da nossa parceira Mutu.</p>
       <p class="text2__third"> As vagas são limitadas. Por isso, garanta a sua reserva preenchendo o formulário abaixo.</p>
     </div>
-    
-    <div id="form">
-      <form>
-        <div>
-          <input type="text" name="name">
-        </div>
-        <div>
-          <input type="text" name="email">
-        </div>
-        <div>
-          <input type="text" name="phone">
-        </div>
-        <div>
-          <input type="text" name="instagram">
-        </div>
-        <div>
-          <input type="submit" value="Quero participar">
-        </div>
-      </form>
-    </div>
+
+    <form class="form">
+      <div class="form-input">
+        <input placeholder="Nome" class="form-input__content" type="text" name="name">
+      </div>
+      <div class="form-input">
+        <input placeholder="Email" class="form-input__content" type="text" name="email">
+      </div>
+      <div class="form-input">
+        <input placeholder="Phone" class="form-input__content" type="text" name="phone">
+      </div>
+      <div class="form-input">
+        <input placeholder="Perfil da loja no Instagram" class="form-input__content" type="text" name="instagram">
+      </div>
+      <div class="form-button">
+        <input class="form-button__content" type="submit" value="Quero participar">
+      </div>
+    </form>
+
   </div>
   <script src="https://smtpjs.com/v2/smtp.js"></script>
   <script src="main.js"></script>
