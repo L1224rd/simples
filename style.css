@@ -146,5 +146,10 @@ body {
   width: 160px;
 }
 
+.error-list {
+  color: red;
+  font-size: 14px;
+}
+
 
 
