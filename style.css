@@ -144,8 +144,8 @@ body {
 }
 
 .sent-email {
-  width: fit-content;
-  align-self: center;
+  display: none;
+  text-align: center;
   color: green;
 }
 
