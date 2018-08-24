@@ -135,6 +135,10 @@ body {
   text-indent: 10px;
 }
 
+.form-button__content:focus {
+  outline-color: #4bd484;
+}
+
 .form-button {
   width: 100%;
 
@@ -154,6 +158,8 @@ body {
 
   background-color: #4bd484;
   border-radius: 2rem;
+
+  cursor: pointer;
 }
 
 .sent-email {
