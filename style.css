@@ -1,5 +1,8 @@
 body {
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .flex-container {
@@ -7,6 +10,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+
+  max-width: 800px;
 }
 
 .banner1 {
@@ -18,21 +23,11 @@ body {
   width: 100%;
   height: 22vh;
 
-  background-color: aquamarine;
+  background-color: green;
 }
 
-.banner1__title {
-  margin: 0;
-
-  font-size: 50px;
-  color: white;
-}
-
-.banner1__description {
-  margin: 0;
-
-  font-size: 20px;
-  color: white;
+.banner1__image {
+  height: 10vh;
 }
 
 .text1 {
@@ -62,10 +57,12 @@ body {
 
 .banner2__image {
   width: 100%;
-  height: 100%*252/750;
+  height: calc(100%*252/750);
 }
 
 .empresas-logo {
+  margin-top: 20px;
+
   width: 70%;
   height: fit-content;
 
@@ -146,9 +143,16 @@ body {
   width: 160px;
 }
 
+.sent-email {
+  width: fit-content;
+  align-self: center;
+  color: green;
+}
+
 .error-list {
   color: red;
   font-size: 14px;
+  display: none;
 }
 
 
