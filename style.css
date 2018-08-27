@@ -155,10 +155,16 @@ body {
 
   margin-top: 10px;
   margin-bottom: 10px;
+
+  display: flex;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  -webkit-flex-direction: column;
 }
 
 .form-input__content {
-  width: 100%;
+  width: initial;
   height: 36px;
   font-size: 16px;
 
