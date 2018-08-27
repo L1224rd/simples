@@ -2,12 +2,14 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  -webkit-flex-direction: column;
   align-items: center;
 }
 
 .flex-container {
   display: flex;
   flex-direction: column;
+  -webkit-flex-direction: column;
   justify-content: space-between;
   align-items: center;
 
@@ -17,6 +19,7 @@ body {
 .banner1 {
   display: flex;
   flex-direction: column;
+  -webkit-flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -35,12 +38,13 @@ body {
 
   display: flex;
   flex-direction: column;
+  -webkit-flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .text1__content {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
 
   margin-top: 35px;
@@ -58,11 +62,12 @@ body {
 
   display: flex;
   flex-direction: row;
+  -webkit-flex-direction: row;
 }
 
 .banner2__image {
   width: 100%;
-  height: calc(100%*252/750);
+  height: calc(100% * 252 / 750);
 }
 
 .empresas-logo {
@@ -74,6 +79,7 @@ body {
 
   display: flex;
   flex-direction: row;
+  -webkit-flex-direction: row;
 
   align-items: center;
   justify-content: center;
@@ -91,6 +97,7 @@ body {
 
   display: flex;
   flex-direction: column;
+  -webkit-flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -100,7 +107,7 @@ body {
 }
 
 .text2 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 
   margin: 0;
   margin-top: 10px;
@@ -115,6 +122,7 @@ body {
 
   font-display: flex;
   flex-direction: column;
+  -webkit-flex-direction: column;
   justify-content: space-between;
   align-items: center;
 
@@ -131,9 +139,10 @@ body {
 .form-input__content {
   width: 100%;
   height: 36px;
+  font-size: 16px;
 
   text-indent: 10px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   outline-color: #4bd484;
 }
@@ -143,10 +152,15 @@ body {
 
   display: flex;
   flex-direction: row;
+  -webkit-flex-direction: row;
   justify-content: center;
 }
 
 .form-button__content {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
   margin-top: 20px;
 
   height: 50px;
@@ -164,7 +178,7 @@ body {
 }
 
 .sent-email {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 32px;
 
   display: none;
@@ -173,13 +187,10 @@ body {
 }
 
 .error-list {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
 
   color: red;
   font-size: 14px;
   display: none;
 }
-
-
-
